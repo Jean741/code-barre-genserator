@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "e8d5dae4-4a5b-45da-a105-e3fe80b90f7b",
+		"name": "qrcodegen",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24273815"
+	},
+	"item": [
+		{
+			"name": "barbecue/code128",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "https://whatsapp.com/dl/"
+				},
+				"url": {
+					"raw": "http://localhost:8080/barcodes/barbecue/code128",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"barcodes",
+						"barbecue",
+						"code128"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "zxing/qrcode",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "https://wa.me/22899445730"
+				},
+				"url": {
+					"raw": "http://localhost:8080/barcodes/zxing/qrcode",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"barcodes",
+						"zxing",
+						"qrcode"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
